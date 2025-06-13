@@ -1,0 +1,196 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    /* font-optical-sizing: auto; */
+    /* font-weight: weight;
+    font-style: normal; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    /* height: 5rem; */
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.fa-compass {
+    font-size: 2rem;
+    color: #fe424d;
+}
+
+/* Footer */
+.f-info-link a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-link a:hover {
+    text-decoration: underline;
+}
+
+.f-info {
+    background-color: #ebebeb;
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* vertical-align: auto; */
+}
+
+
+.f-info-social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+
+}
+
+.f-info-social i {
+    /* margin-right: 1rem; */
+    margin: 0rem 1rem;
+    font-size: 1.5rem;
+
+}
+
+.f-info-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-info-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.container2 a {
+    text-decoration: none !important;
+    display: flex !important;
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+/* Card Effects. */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.1;
+    background-color: white;
+}
+
+/* New Page */
+.add-btn {
+    border: none !important;
+    background-color: #fe424d !important;
+}
+
+/* Edit Page */
+.edit-btn {
+    border: none !important;
+    background-color: #fe424d !important;
+
+}
+
+/* Show Page */
+.show-img {
+    height: 33vh;
+    width: 78vh !important;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Map */
+
+
+#map {
+    height: 350px;
+    width: 100vh;
+}
+
+/* Filters */
+
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5rem;
+    align-items: center;
+}
+
+.filter {
+    margin-right: 2rem;
+    justify-items: center;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+
+.filter:hover {
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter p {
+    font-size: 0.8rem;
+}
+
+.filter a {
+    color: #222222;
+}
+
+.tax-info {
+    display: none;
+}
+
+.tax-switch {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
