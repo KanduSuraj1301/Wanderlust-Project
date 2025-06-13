@@ -105,14 +105,19 @@ app.use((req, res, next) => {
 
 // Routes used after this line of code 
 
+// this is call for user Route!!!
+app.use("/", userRoute);
+
+app.get("/", (req, res, next) => {
+    res.redirect("/listings");
+});
+
 // This is call for Listing Route!!!
 app.use("/listings", listingRoute);
 
 // This is call for Review Route!!!
 app.use("/listings/:id/reviews", reviewRoute);
 
-// this is call for user Route!!!
-app.use("/", userRoute);
 
 
 
